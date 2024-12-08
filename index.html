@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Selling Website</title>
+    
+   
+    <!--custom css link-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./images/cover.png" alt="Logo">
+        </div>
+    
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    
+        <ul class="nav-links">
+            <li class="search-bar-item" id="search-opt">
+                <div class="search-bar">
+                    <input type="text" placeholder="What do you want to learn?">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+            </li>
+            <li class="dropdown" id="navigation">
+                <a href="#" class="dropbtn">Courses <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="#">Programming & Development</a>
+                    <a href="#">Design & Creativity</a>
+                    <a href="#">Business & Marketing</a>
+                    <a href="#">Personal Development</a>
+                </div>
+            </li>
+            <li id="navigation"><a href="price.html">Plans & Pricing</a></li>
+            <li id="navigation"><a href="community.html">Community</a></li>
+        </ul>
+    
+        <div class="button-grp" id="buttons-group">
+            <a href="login.html"><button class="login">Log In</button></a>
+            <a href="signup.html"><button class="signup">Sign Up</button></a>
+        </div>
+    </nav>    
+
+  
+     <!--Home Page-->
+
+      <section id="home">
+        <h2><span>Courses That Change Lives.</span> <br> The Ultimate Learning Hub</h2>
+        <p>We believe that learning is the key to unlocking endless possibilities. <br></p>
+
+            <div class="btn-grp">
+                <a href="signup.html" class="blue1">Get Started</a>
+                <a href="course.html" class="blue2">Explore Courses</a>
+            </div>
+     </section> 
+    
+     <!--Description Section-->
+
+     <div class="description-section">
+     <div class="description-text">
+        Trusted by over <bold>1000 companies</bold> and millions of learners around the world
+    </div>
+    <div class="description-logo">
+        <img src="./images/logo-1-color.png" alt="logo1">
+        <img src="./images/logo-2-color.png" alt="logo2">
+        <img src="./images/logo-3-color.png" alt="logo3">
+        <img src="./images/logo-4-color.png" alt="logo4">
+        <img src="./images/logo-5-color.png" alt="logo5">
+        <img src="./images/logo-6-color.png" alt="logo6">    
+    </div>
+     </div>
+
+
+      <!-- Courses -->
+
+    <section id="courses">
+        <div class="box">
+            <h1>Trending courses</h1>
+            <p>Explore our top-rated courses and take your skills to the next level.</p>
+            
+            <div class="course-grid">
+                <!-- Card 1 -->
+                
+                <div class="course-card">
+                    <img src="images/course 1.jpg" alt="JavaScript Course">
+                    <div class="details">
+                        <h3>The Complete 2024 Web Development Bootcamp</h3>
+                        <p><i class="fa-solid fa-calendar-days"></i> Last updated 08/2024</p>
+                        <div class="stars"> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(413,975 ratings)</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span>₹3,099</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+                
+                <!--Card 2 -->
+
+                <div class="course-card">
+                    <img src="images/course 2.jpg" alt="JavaScript Course">
+                    <div class="details">
+                        <h3>Machine Learning, Data Science and AI with Python</h3>
+                        <p> <i class="fa-solid fa-calendar-days"></i> Last updated 08/2024</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(33,567 ratings)</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span>₹4,999</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                 <!--Card 3 -->
+
+                <div class="course-card">
+                    <img src="images/course 3.webp" alt="JavaScript Course">
+                    <div class="details">
+                        <h3>Android Java Masterclass - Become an App Developer</h3>
+                        <p> <i class="fa-solid fa-calendar-days"></i> Last updated 09/2024</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(10,641 ratings)</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span>₹3,699</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+             
+                 <!--Card 4 -->
+
+                <div class="course-card">
+                    <img src="images/course 4.jpg" alt="JavaScript Course">
+                    <div class="details">
+                        <h3>The Complete Ethical Hacking Course: Beginner to Advanced!</h3>
+                        <p><i class="fa-solid fa-calendar-days"></i> Last updated 11/2017</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(29,678 ratings)</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span>₹3,299</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                 <!--Card 5 -->
+
+                <div class="course-card">
+                    <img src="images/course 5.webp" alt="Python Course">
+                    <div class="details">
+                        <h3>Beginning C++ Programming - From Beginner to Beyond</h3>
+                        <p><i class="fa-solid fa-calendar-days"></i> Last updated 09/2024</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(73,292 ratings)</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span>₹3,499</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                 <!--Card 6 -->
+
+                <div class="course-card">
+                    <img src="images/course 6.webp" alt="Python Course">
+                    <div class="details">
+                        <h3>Sales and Persuasion Skills for Startups</h3>
+                        <p><i class="fa-solid fa-calendar-days"></i> Last updated 04/2018</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(1,165 ratings)</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span>₹3,099</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+ 
+                 <!--Card 7 -->
+
+                <div class="course-card">
+                    <img src="images/course 7.png" alt="Python Course">
+                    <div class="details">
+                        <h3>Stock Market Investing for Beginners</h3>
+                        <p><i class="fa-solid fa-calendar-days"></i> Last updated 12/2024</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(31,366 ratings)</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span>₹2799</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                 <!--Card 8 -->
+
+                <div class="course-card">
+                    <img src="images/course 8.jpg" alt="Python Course">
+                    <div class="details">
+                        <h3>IT Troubleshooting Skill Training</h3>
+                        <p><i class="fa-solid fa-calendar-days"></i> Last updated 10/2024</p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <span>(12,045 ratings)</span>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <span>₹3,099</span>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!--Features-->
+
+     <section id="features">
+        <h1>Why Choose Us</h1>
+        <p id="para">Here are some key features that could make LearnSphere stand out as a top course-selling platform.</p>
+        <div class="features-card">
+            <div class="card-one">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Interactive Learning Tools</h3>
+                <p>Enjoy quizzes, assignments and hands-on projects to deepen your learning experience. Learn at your own pace with on-demand courses available 24/7.</p>
+            </div>
+
+            <div class="card-one">
+                <i class="fa-solid fa-people-group"></i>
+                <h3>Community & Discussion Forums</h3>
+                <p>Engage with fellow learners and instructors through forums, discussion groups, and live Q&A sessions to foster collaboration.</p>
+            </div>
+
+            <div class="card-one">
+                <i class="fa-solid fa-award"></i>
+                <h3>Certification & Badges</h3>
+                <p>Earn Certificates or digital badges upon course completion to showcase your achievements and enhance your resume.</p>
+            </div>
+
+            <div class="card-one">
+                <i class="fa-solid fa-bolt"></i>
+                <h3>Affordable Pricing or Free Trials</h3>
+                <p>Earn Certificates or digital badges upon course completion to showcase your achievements and enhance your resume.</p>
+            </div>
+        </div>
+     </section>
+
+    
+
+    <!-- Testimonials  -->
+
+    <section id="testimonials">
+        <div class="container">
+            <h1>Student Success Stories</h1>
+            <p>The best stories come from those who've experienced it—read their journeys!</p>
+    
+            <div class="testimonial-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <img src="images/avatar-1.png" alt="Student 1">
+                    <p>"The Cyber Security course was incredibly comprehensive and easy to follow. I've gained confidence in my coding skills!"</p>
+                    <h3>John Stevens</h3>
+                    <span>Security Analyst</span>
+                </div>
+    
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <img src="images/avatar-2.png" alt="Student 2">
+                    <p>"The hands-on projects and supportive community made learning so enjoyable. Highly recommend this platform!"</p>
+                    <h3>Isabella Scott</h3>
+                    <span>Frontend Developer</span>
+                </div>
+    
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <img src="images/avatar-3.png" alt="Student 3">
+                    <p>"I completed the Python course and landed a job within a month. The certifications helped boost my resume!"</p>
+                    <h3>Daniel </h3>
+                    <span>Software Engineer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+ <!-- progress tracker -->
+
+ <div class="progress-box">
+ <div class="progress-container">
+    <h1>Login to Track Your Progress</h1>
+    <div class="card-progress">
+        <h2>Course Name</h2>
+        <p>Progress: <span id="progress-percentage">0%</span></p>
+        <div class="progress-level">
+            <div class="progress-fill" style="width: 0%;"></div>
+        </div>
+      <a href="login.html"><button id="update" class="btn-one">Refresh</button></a>
+    </div>
+</div>
+</div>
+
+    
+<!--Registration-->
+
+     <section id="registration">
+        <div class="remainder">
+            <p>Get 100 Online Courses for Free</p>
+            <h1>Register to Get it.</h1>
+            <div class="time">
+                <div class="date">
+                    23 <br> Hours
+                </div>
+                <div class="date">
+                    06 <br> Minutes
+                </div>
+                <div class="date">
+                    58 <br> Seconds
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+     <!-- Footer -->
+
+    <footer>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="price.html">Plans & Pricing</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="login.html">Log in/Sign up</a></li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Support/Help</h3>
+            <li>FAQs</li>
+            <li>Contact Support</li>
+            <li>Refund Policy</li>
+            <li>How It Works</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Contact Information</h3>
+            <li><i class="fas fa-map-marker-alt"></i> LearnSphere Knowledge City</li>
+            <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+            <li><i class="fas fa-envelope"></i> support@learnsphere.com</li>
+            <li><i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i></li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 LearnSphere. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+     </footer> 
+
+    <!--custom js link-->
+    <script src="script.js"></script>
+
+</body>
+</html>
